@@ -19,7 +19,7 @@
             //git托管
             this.githost = localStorage.getItem("uuid-githost") || "github";
             //token
-            this.token = localStorage.getItem("uuid-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-" + this.githost);
+            this.token = localStorage.getItem("uuid-token-" + this.githost);
 
             //缓存
             this.dataCache = {};
